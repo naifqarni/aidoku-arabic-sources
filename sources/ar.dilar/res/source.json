@@ -1,0 +1,23 @@
+{
+	"info": {
+		"id": "ar.dilar",
+		"name": "Dilar",
+		"version": 1,
+		"url": "https://dilar.tube",
+		"contentRating": 0,
+		"languages": [
+			"ar"
+		],
+		"minAppVersion": "0.8.4"
+	},
+	"listings": [
+		{
+			"id": "popular",
+			"name": "الأكثر شعبية"
+		},
+		{
+			"id": "latest",
+			"name": "آخر التحديثات"
+		}
+	]
+}

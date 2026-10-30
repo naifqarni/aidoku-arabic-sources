@@ -1,0 +1,19 @@
+{
+	"info": {
+		"id": "ar.teamx",
+		"name": "Team X",
+		"version": 1,
+		"url": "https://olympustaff.com",
+		"contentRating": 0,
+		"languages": [
+			"ar"
+		],
+		"minAppVersion": "0.7.1"
+	},
+	"listings": [
+		{
+			"id": "latest",
+			"name": "آخر التحديثات"
+		}
+	]
+}
