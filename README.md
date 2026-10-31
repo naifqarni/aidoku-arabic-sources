@@ -4,11 +4,15 @@ Arabic manga sources for [Aidoku](https://github.com/Aidoku/Aidoku), ported from
 
 ## Usage
 
-In Aidoku, open Settings → Source Lists and add:
+On a device with Aidoku (0.7+) installed, open **[naifqarni.github.io/aidoku-arabic-sources](https://naifqarni.github.io/aidoku-arabic-sources/)** and tap the "Add Repository" button to add the source list directly to the app.
+
+Alternatively, paste this into Safari on your device:
 
 ```
-https://naifqarni.github.io/aidoku-arabic-sources/index.min.json
+aidoku://addSourceList?url=https://naifqarni.github.io/aidoku-arabic-sources/index.min.json
 ```
+
+Or navigate to the settings tab, and under the source lists page add `https://naifqarni.github.io/aidoku-arabic-sources/index.min.json`.
 
 ## Sources
 
