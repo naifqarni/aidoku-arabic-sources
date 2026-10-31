@@ -1,0 +1,512 @@
+{
+  "name": "Arabic Sources",
+  "sources": [
+    {
+      "id": "ar.anyonemanga",
+      "name": "Anyone Manga",
+      "version": 1,
+      "iconURL": "icons/ar.anyonemanga-v1.png",
+      "downloadURL": "sources/ar.anyonemanga-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://anyonemanga.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.areamanga",
+      "name": "أريا مانجا",
+      "version": 1,
+      "iconURL": "icons/ar.areamanga-v1.png",
+      "downloadURL": "sources/ar.areamanga-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://ar.kenmanga.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.ariatoon",
+      "name": "AriaToon",
+      "version": 1,
+      "iconURL": "icons/ar.ariatoon-v1.png",
+      "downloadURL": "sources/ar.ariatoon-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://ariatoon.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.asgardscans",
+      "name": "AsgardScans",
+      "version": 1,
+      "iconURL": "icons/ar.asgardscans-v1.png",
+      "downloadURL": "sources/ar.asgardscans-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://asgardscans.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.azora",
+      "name": "Azora",
+      "version": 1,
+      "iconURL": "icons/ar.azora-v1.png",
+      "downloadURL": "sources/ar.azora-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://azorafly.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.comicverse",
+      "name": "Comic Verse",
+      "version": 1,
+      "iconURL": "icons/ar.comicverse-v1.png",
+      "downloadURL": "sources/ar.comicverse-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://arcomixverse.blogspot.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.despairmanga",
+      "name": "Despair Manga",
+      "version": 1,
+      "iconURL": "icons/ar.despairmanga-v1.png",
+      "downloadURL": "sources/ar.despairmanga-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://despair-world.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.detectiveconanar",
+      "name": "شبكة كونان العربية",
+      "version": 1,
+      "iconURL": "icons/ar.detectiveconanar-v1.png",
+      "downloadURL": "sources/ar.detectiveconanar-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://manga.detectiveconanar.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.dilar",
+      "name": "Dilar",
+      "version": 2,
+      "iconURL": "icons/ar.dilar-v2.png",
+      "downloadURL": "sources/ar.dilar-v2.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://dilar.tube",
+      "minAppVersion": "0.8.4"
+    },
+    {
+      "id": "ar.duskoryvile",
+      "name": "Duskoryvile",
+      "version": 1,
+      "iconURL": "icons/ar.duskoryvile-v1.png",
+      "downloadURL": "sources/ar.duskoryvile-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 1,
+      "baseURL": "https://duskoryvile.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.eshadow",
+      "name": "EShadow",
+      "version": 1,
+      "iconURL": "icons/ar.eshadow-v1.png",
+      "downloadURL": "sources/ar.eshadow-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://eshadow.net",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.hijala",
+      "name": "Hijala",
+      "version": 1,
+      "iconURL": "icons/ar.hijala-v1.png",
+      "downloadURL": "sources/ar.hijala-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://hijala.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.kawaiimanga",
+      "name": "Kawii Manga",
+      "version": 1,
+      "iconURL": "icons/ar.kawaiimanga-v1.png",
+      "downloadURL": "sources/ar.kawaiimanga-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://kawaiimanga.org",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.lavascans",
+      "name": "Lava Scans",
+      "version": 1,
+      "iconURL": "icons/ar.lavascans-v1.png",
+      "downloadURL": "sources/ar.lavascans-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://lavascans.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.lonertranslations",
+      "name": "Loner Translations",
+      "version": 1,
+      "iconURL": "icons/ar.lonertranslations-v1.png",
+      "downloadURL": "sources/ar.lonertranslations-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://loner-tl.blogspot.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.manga3asq",
+      "name": "3asq",
+      "version": 1,
+      "iconURL": "icons/ar.manga3asq-v1.png",
+      "downloadURL": "sources/ar.manga3asq-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://3asq.online",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangaailand",
+      "name": "Manga Ai Land",
+      "version": 1,
+      "iconURL": "icons/ar.mangaailand-v1.png",
+      "downloadURL": "sources/ar.mangaailand-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://manga-ai-land.blogspot.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangadar",
+      "name": "MangaDar",
+      "version": 1,
+      "iconURL": "icons/ar.mangadar-v1.png",
+      "downloadURL": "sources/ar.mangadar-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://mangadar.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangalek",
+      "name": "مانجا ليك",
+      "version": 1,
+      "iconURL": "icons/ar.mangalek-v1.png",
+      "downloadURL": "sources/ar.mangalek-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://mangalik.net",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangalink",
+      "name": "مانجا لينك",
+      "version": 1,
+      "iconURL": "icons/ar.mangalink-v1.png",
+      "downloadURL": "sources/ar.mangalink-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://link-manga.net",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangalionz",
+      "name": "MangaLionz",
+      "version": 1,
+      "iconURL": "icons/ar.mangalionz-v1.png",
+      "downloadURL": "sources/ar.mangalionz-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://manga-lionz.org",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangaspark",
+      "name": "MangaSpark",
+      "version": 1,
+      "iconURL": "icons/ar.mangaspark-v1.png",
+      "downloadURL": "sources/ar.mangaspark-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://sparkmanga.net",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangastarz",
+      "name": "Manga Starz",
+      "version": 1,
+      "iconURL": "icons/ar.mangastarz-v1.png",
+      "downloadURL": "sources/ar.mangastarz-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://starzmanga.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangaswat",
+      "name": "MangaSwat",
+      "version": 1,
+      "iconURL": "icons/ar.mangaswat-v1.png",
+      "downloadURL": "sources/ar.mangaswat-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://meshmanga.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangatales",
+      "name": "Manga Tales",
+      "version": 1,
+      "iconURL": "icons/ar.mangatales-v1.png",
+      "downloadURL": "sources/ar.mangatales-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://www.mangatales.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangatek",
+      "name": "MangaTek",
+      "version": 1,
+      "iconURL": "icons/ar.mangatek-v1.png",
+      "downloadURL": "sources/ar.mangatek-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://mangatek.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangatik",
+      "name": "MangaTik",
+      "version": 1,
+      "iconURL": "icons/ar.mangatik-v1.png",
+      "downloadURL": "sources/ar.mangatik-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://mangatik.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangatime",
+      "name": "MangaTime",
+      "version": 1,
+      "iconURL": "icons/ar.mangatime-v1.png",
+      "downloadURL": "sources/ar.mangatime-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://mangatime.org",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.mangatuk",
+      "name": "MangaTuk",
+      "version": 1,
+      "iconURL": "icons/ar.mangatuk-v1.png",
+      "downloadURL": "sources/ar.mangatuk-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 1,
+      "baseURL": "https://mangatuk.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.manhatok",
+      "name": "Manhatok",
+      "version": 1,
+      "iconURL": "icons/ar.manhatok-v1.png",
+      "downloadURL": "sources/ar.manhatok-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://manhatok.blogspot.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.murim",
+      "name": "Murim",
+      "version": 1,
+      "iconURL": "icons/ar.murim-v1.png",
+      "downloadURL": "sources/ar.murim-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://murim-manga.blogspot.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.oduto",
+      "name": "Oduto",
+      "version": 1,
+      "iconURL": "icons/ar.oduto-v1.png",
+      "downloadURL": "sources/ar.oduto-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://nb19u.blogspot.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.orcamanga",
+      "name": "Orca Manga",
+      "version": 1,
+      "iconURL": "icons/ar.orcamanga-v1.png",
+      "downloadURL": "sources/ar.orcamanga-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://infinity896.blogspot.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.procomic",
+      "name": "ProComic",
+      "version": 1,
+      "iconURL": "icons/ar.procomic-v1.png",
+      "downloadURL": "sources/ar.procomic-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 1,
+      "baseURL": "https://procomic.pro",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.rocksmanga",
+      "name": "Rocks Manga",
+      "version": 1,
+      "iconURL": "icons/ar.rocksmanga-v1.png",
+      "downloadURL": "sources/ar.rocksmanga-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://rocksmanga.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.stellarsaber",
+      "name": "StellarSaber",
+      "version": 1,
+      "iconURL": "icons/ar.stellarsaber-v1.png",
+      "downloadURL": "sources/ar.stellarsaber-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://stellarsaber.pro",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.teamx",
+      "name": "Team X",
+      "version": 1,
+      "iconURL": "icons/ar.teamx-v1.png",
+      "downloadURL": "sources/ar.teamx-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://olympustaff.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.xsanomanga",
+      "name": "XSano Manga",
+      "version": 1,
+      "iconURL": "icons/ar.xsanomanga-v1.png",
+      "downloadURL": "sources/ar.xsanomanga-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://www.xsano-manga.com",
+      "minAppVersion": "0.7.1"
+    },
+    {
+      "id": "ar.yokai",
+      "name": "Yokai",
+      "version": 1,
+      "iconURL": "icons/ar.yokai-v1.png",
+      "downloadURL": "sources/ar.yokai-v1.aix",
+      "languages": [
+        "ar"
+      ],
+      "contentRating": 0,
+      "baseURL": "https://yokai-team.blogspot.com",
+      "minAppVersion": "0.7.1"
+    }
+  ]
+}
