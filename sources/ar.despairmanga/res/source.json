@@ -1,0 +1,23 @@
+{
+	"info": {
+		"id": "ar.despairmanga",
+		"name": "Despair Manga",
+		"version": 1,
+		"url": "https://despair-world.com",
+		"contentRating": 0,
+		"languages": [
+			"ar"
+		],
+		"minAppVersion": "0.7.1"
+	},
+	"listings": [
+		{
+			"id": "popular",
+			"name": "الأكثر شعبية"
+		},
+		{
+			"id": "latest",
+			"name": "آخر التحديثات"
+		}
+	]
+}

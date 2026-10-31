@@ -1,0 +1,23 @@
+{
+	"info": {
+		"id": "ar.rocksmanga",
+		"name": "Rocks Manga",
+		"version": 1,
+		"url": "https://rocksmanga.com",
+		"contentRating": 0,
+		"languages": [
+			"ar"
+		],
+		"minAppVersion": "0.7.1"
+	},
+	"listings": [
+		{
+			"id": "most_viewed",
+			"name": "الأكثر مشاهدة"
+		},
+		{
+			"id": "recently_updated",
+			"name": "آخر التحديثات"
+		}
+	]
+}

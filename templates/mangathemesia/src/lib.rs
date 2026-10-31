@@ -1,9 +1,9 @@
 #![no_std]
 use aidoku::{
 	Chapter, DeepLinkHandler, DeepLinkResult, FilterValue, Home, HomeLayout, ImageRequestProvider,
-	Manga, MangaPageResult, Page, PageContext, Result, Source,
+	ImageResponse, Manga, MangaPageResult, Page, PageContext, PageImageProcessor, Result, Source,
 	alloc::{String, Vec, borrow::Cow},
-	imports::net::Request,
+	imports::{canvas::ImageRef, net::Request},
 };
 
 pub mod helpers;
@@ -144,6 +144,17 @@ impl<T: Impl> Source for MangaThemesia<T> {
 impl<T: Impl> ImageRequestProvider for MangaThemesia<T> {
 	fn get_image_request(&self, url: String, context: Option<PageContext>) -> Result<Request> {
 		self.inner.get_image_request(&self.params, url, context)
+	}
+}
+
+impl<T: Impl> PageImageProcessor for MangaThemesia<T> {
+	fn process_page_image(
+		&self,
+		response: ImageResponse,
+		context: Option<PageContext>,
+	) -> Result<ImageRef> {
+		self.inner
+			.process_page_image(&self.params, response, context)
 	}
 }
 

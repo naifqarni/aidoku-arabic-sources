@@ -1,0 +1,23 @@
+{
+	"info": {
+		"id": "ar.mangatuk",
+		"name": "MangaTuk",
+		"version": 1,
+		"url": "https://mangatuk.com",
+		"contentRating": 1,
+		"languages": [
+			"ar"
+		],
+		"minAppVersion": "0.7.1"
+	},
+	"listings": [
+		{
+			"id": "popular",
+			"name": "الأكثر شعبية"
+		},
+		{
+			"id": "latest_updates",
+			"name": "آخر التحديثات"
+		}
+	]
+}

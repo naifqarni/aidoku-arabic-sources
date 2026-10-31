@@ -1,0 +1,13 @@
+{
+	"info": {
+		"id": "ar.duskoryvile",
+		"name": "Duskoryvile",
+		"version": 1,
+		"url": "https://duskoryvile.com",
+		"contentRating": 1,
+		"languages": [
+			"ar"
+		],
+		"minAppVersion": "0.7.1"
+	}
+}

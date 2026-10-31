@@ -1,0 +1,61 @@
+[
+	{
+		"type": "text",
+		"id": "author",
+		"title": "المؤلف",
+		"placeholder": "Author"
+	},
+	{
+		"type": "text",
+		"id": "artist",
+		"title": "الرسام",
+		"placeholder": "Artist"
+	},
+	{
+		"type": "sort",
+		"id": "m_orderby",
+		"title": "الترتيب",
+		"canAscend": false,
+		"options": [
+			"العلاقة",
+			"الأحدث",
+			"أبجدي",
+			"التقييم",
+			"الشائع",
+			"الاكثر مشاهدة"
+		]
+	},
+	{
+		"type": "multi-select",
+		"id": "status[]",
+		"title": "الحالة",
+		"canExclude": false,
+		"options": [
+			"مستمرة",
+			"مكتملة",
+			"مُلغَاة",
+			"متوقفة",
+			"لم تُنشَر بعد"
+		],
+		"ids": [
+			"on-going",
+			"end",
+			"canceled",
+			"on-hold",
+			"upcoming"
+		]
+	},
+	{
+		"type": "select",
+		"id": "op",
+		"title": "شرط التصنيفات",
+		"options": [
+			"أي من التصنيفات المختارة",
+			"كل التصنيفات المختارة"
+		],
+		"ids": [
+			"",
+			"1"
+		]
+	}
+]

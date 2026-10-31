@@ -55,7 +55,9 @@ impl ElementImageAttr for Element {
 				.and_then(|s| extract_between(&s, "url(", ")").map(|s| s.into()))
 		};
 		let fallback = || {
-			self.attr("data-src")
+			self.attr("data-encrypted-src")
+				.filter(|s| !s.trim().is_empty())
+				.or_else(|| self.attr("data-src"))
 				.or_else(|| self.attr("data-lazy-src"))
 				.or_else(|| {
 					self.attr("srcset").and_then(|srcset| {

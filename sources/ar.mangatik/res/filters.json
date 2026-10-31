@@ -1,0 +1,53 @@
+[
+	{
+		"type": "select",
+		"id": "sort",
+		"title": "الترتيب",
+		"options": [
+			"الأكثر شعبية",
+			"آخر التحديثات",
+			"الأعلى تقييماً",
+			"A - Z"
+		],
+		"ids": [
+			"popular",
+			"latest",
+			"rating",
+			"az"
+		]
+	},
+	{
+		"type": "select",
+		"id": "type",
+		"title": "النوع",
+		"options": [
+			"الكل",
+			"مانجا",
+			"مانهوا",
+			"مانها"
+		],
+		"ids": [
+			"",
+			"manga",
+			"manhwa",
+			"manhua"
+		]
+	},
+	{
+		"type": "select",
+		"id": "status",
+		"title": "الحالة",
+		"options": [
+			"الكل",
+			"مستمر",
+			"مكتمل",
+			"متوقف مؤقتاً"
+		],
+		"ids": [
+			"",
+			"ongoing",
+			"completed",
+			"hiatus"
+		]
+	}
+]

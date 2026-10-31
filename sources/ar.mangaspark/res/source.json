@@ -1,0 +1,13 @@
+{
+	"info": {
+		"id": "ar.mangaspark",
+		"name": "MangaSpark",
+		"version": 1,
+		"url": "https://sparkmanga.net",
+		"contentRating": 0,
+		"languages": [
+			"ar"
+		],
+		"minAppVersion": "0.7.1"
+	}
+}

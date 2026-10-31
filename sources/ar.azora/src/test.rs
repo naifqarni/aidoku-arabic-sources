@@ -9,10 +9,14 @@ fn smoke() {
 	let source = Iken::<Azora>::new();
 	let list = source.get_search_manga_list(None, 1, vec![]).unwrap();
 	assert!(!list.entries.is_empty(), "empty list");
-	let first = list.entries.into_iter().next().unwrap();
-	print(format!("first: {} ({})", first.title, first.key));
-
-	let manga = source.get_manga_update(first, true, true).unwrap();
+	// brand new series can have no chapters yet, so use the first one that has some
+	let manga = list
+		.entries
+		.into_iter()
+		.map(|entry| source.get_manga_update(entry, true, true).unwrap())
+		.find(|manga| manga.chapters.as_ref().is_some_and(|c| !c.is_empty()))
+		.expect("no series with chapters");
+	print(format!("first: {} ({})", manga.title, manga.key));
 	print(format!(
 		"status={:?} viewer={:?} tags={:?} desc={:?}",
 		manga.status,

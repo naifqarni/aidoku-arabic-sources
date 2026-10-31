@@ -1,0 +1,13 @@
+{
+	"info": {
+		"id": "ar.detectiveconanar",
+		"name": "شبكة كونان العربية",
+		"version": 1,
+		"url": "https://manga.detectiveconanar.com",
+		"contentRating": 0,
+		"languages": [
+			"ar"
+		],
+		"minAppVersion": "0.7.1"
+	}
+}

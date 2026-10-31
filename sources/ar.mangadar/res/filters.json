@@ -1,0 +1,108 @@
+[
+	{
+		"type": "select",
+		"id": "sort",
+		"title": "الترتيب",
+		"options": [
+			"الأخيرة",
+			"الأكثر شعبية"
+		],
+		"ids": [
+			"latest",
+			"popular"
+		]
+	},
+	{
+		"type": "select",
+		"id": "type",
+		"title": "النوع",
+		"options": [
+			"الكل",
+			"مانغا",
+			"مانهوا",
+			"مانهوا صيني"
+		],
+		"ids": [
+			"",
+			"manga",
+			"manhwa",
+			"manhua"
+		]
+	},
+	{
+		"type": "select",
+		"id": "status",
+		"title": "الحالة",
+		"options": [
+			"الكل",
+			"مستمر",
+			"مكتمل"
+		],
+		"ids": [
+			"",
+			"ongoing",
+			"completed"
+		]
+	},
+	{
+		"type": "select",
+		"id": "genre",
+		"title": "التصنيف",
+		"options": [
+			"الكل",
+			"أكشن",
+			"مغامرة",
+			"كوميديا",
+			"دراما",
+			"خيال",
+			"رعب",
+			"رومانسي",
+			"شونين",
+			"سينين",
+			"مدرسي",
+			"خارق للطبيعة",
+			"تاريخي",
+			"إيسيكاي",
+			"تناسخ",
+			"نفسي",
+			"تشويق",
+			"خيال حضري",
+			"الفنون القتالية",
+			"سفر عبر الزمن",
+			"غموض",
+			"حائز على جوائز",
+			"شريرة",
+			"خيال علمي",
+			"بقاء",
+			"شريحة من الحياة"
+		],
+		"ids": [
+			"",
+			"action",
+			"adventure",
+			"comedy",
+			"drama",
+			"fantasy",
+			"horror",
+			"romance",
+			"shounen",
+			"seinen",
+			"school",
+			"supernatural",
+			"historical",
+			"isekai",
+			"reincarnation",
+			"psychological",
+			"suspense",
+			"urban-fantasy",
+			"martial-arts",
+			"time-travel",
+			"mystery",
+			"award-winning",
+			"villainess",
+			"sci-fi",
+			"survival",
+			"slice-of-life"
+		]
+	}
+]

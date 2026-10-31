@@ -4,11 +4,12 @@ use crate::{
 };
 use aidoku::{
 	Chapter, ContentRating, DeepLinkResult, FilterValue, HomeComponent, HomeComponentValue,
-	HomeLayout, Link, Manga, MangaPageResult, MangaStatus, MangaWithChapter, Page, PageContent,
-	PageContext, Result, Viewer,
+	HomeLayout, ImageResponse, Link, Manga, MangaPageResult, MangaStatus, MangaWithChapter, Page,
+	PageContent, PageContext, Result, Viewer,
 	alloc::{String, Vec, string::ToString, vec},
 	helpers::{string::StripPrefixOrSelf, uri::QueryParameters},
 	imports::{
+		canvas::ImageRef,
 		html::{Document, Html},
 		net::Request,
 		std::{current_date, parse_date_with_options, send_partial_result},
@@ -326,6 +327,16 @@ pub trait Impl {
 		Ok(Request::get(url)?
 			.header("Accept", "image/avif,image/webp,image/png,image/jpeg,*/*")
 			.header("Referer", &format!("{}/", params.base_url)))
+	}
+
+	// only used if the source registers PageImageProcessor
+	fn process_page_image(
+		&self,
+		_params: &Params,
+		response: ImageResponse,
+		_context: Option<PageContext>,
+	) -> Result<ImageRef> {
+		Ok(response.image)
 	}
 
 	fn get_home(&self, params: &Params) -> Result<HomeLayout> {

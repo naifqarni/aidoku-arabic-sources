@@ -16,7 +16,6 @@ use aidoku::{
 use models::*;
 
 const BASE_URL: &str = "https://dilar.tube";
-const NOVEL_TYPE_ID: &str = "99";
 /// How long the reader in the web view gets to load a chapter.
 const READER_TIMEOUT_SECONDS: i32 = 20;
 
@@ -109,7 +108,6 @@ impl Source for Dilar {
 				_ => {}
 			}
 		}
-		series_type.exclude.push(NOVEL_TYPE_ID.into());
 
 		let body = SearchRequest {
 			query: query.as_deref().unwrap_or_default(),

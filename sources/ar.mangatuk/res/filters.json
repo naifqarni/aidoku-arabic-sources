@@ -1,0 +1,42 @@
+[
+	{
+		"type": "select",
+		"id": "sort",
+		"title": "ترتيب حسب",
+		"options": [
+			"الأكثر شعبية",
+			"الرائج",
+			"آخر التحديثات",
+			"الأحدث",
+			"أبجدي",
+			"التقييم"
+		],
+		"ids": [
+			"popular",
+			"trending",
+			"latest_updates",
+			"latest",
+			"alphabetical",
+			"rating"
+		]
+	},
+	{
+		"type": "select",
+		"id": "status",
+		"title": "الحالة",
+		"options": [
+			"الكل",
+			"مستمر",
+			"مكتمل",
+			"متوقف",
+			"ملغي"
+		],
+		"ids": [
+			"",
+			"ongoing",
+			"completed",
+			"hiatus",
+			"cancelled"
+		]
+	}
+]

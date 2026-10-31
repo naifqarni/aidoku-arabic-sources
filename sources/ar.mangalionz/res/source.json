@@ -1,0 +1,13 @@
+{
+	"info": {
+		"id": "ar.mangalionz",
+		"name": "MangaLionz",
+		"version": 1,
+		"url": "https://manga-lionz.org",
+		"contentRating": 0,
+		"languages": [
+			"ar"
+		],
+		"minAppVersion": "0.7.1"
+	}
+}

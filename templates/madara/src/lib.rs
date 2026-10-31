@@ -29,6 +29,8 @@ pub struct Params {
 	pub source_path: Cow<'static, str>,
 	// if the source uses the new ajax endpoint for chapters instead of admin-ajax.php
 	pub use_new_chapter_endpoint: bool,
+	// if the new ajax chapter endpoint is paginated (`?t=<page>`); requires use_new_chapter_endpoint
+	pub use_paginated_chapter_endpoint: bool,
 	// if image urls are stored in a style attribute and used as a background-image
 	pub use_style_images: bool,
 	// if the source uses "madara_load_more" to load manga (has "load more" instead of next/prev pages)
@@ -74,6 +76,7 @@ impl Default for Params {
 			base_url: "".into(),
 			source_path: "manga".into(),
 			use_new_chapter_endpoint: false,
+			use_paginated_chapter_endpoint: false,
 			use_style_images: false,
 			use_load_more_request: LoadMoreStrategy::AutoDetect,
 			filter_non_manga_items: true,

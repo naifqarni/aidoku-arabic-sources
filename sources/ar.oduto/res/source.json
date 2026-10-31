@@ -1,0 +1,13 @@
+{
+	"info": {
+		"id": "ar.oduto",
+		"name": "Oduto",
+		"version": 1,
+		"url": "https://nb19u.blogspot.com",
+		"contentRating": 0,
+		"languages": [
+			"ar"
+		],
+		"minAppVersion": "0.7.1"
+	}
+}

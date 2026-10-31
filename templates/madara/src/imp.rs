@@ -133,6 +133,41 @@ pub trait Impl {
 			let mut chapter_elements = html
 				.select(&params.chapter_selector)
 				.ok_or(error!("Invalid chapter selector"))?;
+			if chapter_elements.is_empty()
+				&& params.use_new_chapter_endpoint
+				&& params.use_paginated_chapter_endpoint
+			{
+				let base = url.strip_suffix("/").unwrap_or(&url);
+				let mut chapters: Vec<Chapter> = Vec::new();
+				let mut page = 1;
+				loop {
+					let response = Request::post(format!("{base}/ajax/chapters/?t={page}"))?
+						.header("Referer", &format!("{}/", params.base_url))
+						.header("X-Requested-With", "XMLHttpRequest")
+						.send()?;
+					if response.status_code() == 404 {
+						break;
+					}
+					let page_chapters: Vec<Chapter> = response
+						.get_html()?
+						.select(&params.chapter_selector)
+						.map(|els| {
+							els.filter_map(|el| self.parse_chapter_element(params, el))
+								.collect()
+						})
+						.unwrap_or_default();
+					let last_key = page_chapters.last().map(|c| c.key.clone());
+					if page_chapters.is_empty()
+						|| last_key == chapters.last().map(|c| c.key.clone())
+					{
+						break;
+					}
+					chapters.extend(page_chapters);
+					page += 1;
+				}
+				manga.chapters = Some(chapters);
+				return Ok(manga);
+			}
 			if chapter_elements.is_empty() {
 				let request = if params.use_new_chapter_endpoint {
 					let url = url.strip_suffix("/").unwrap_or(&url);
@@ -304,7 +339,12 @@ pub trait Impl {
 				.select(&params.page_list_selector)
 				.map(|els| {
 					els.filter_map(|el| {
-						let url = el.select_first("img")?.img_attr(params.use_style_images)?;
+						let img = if el.tag_name().is_some_and(|t| t.eq_ignore_ascii_case("img")) {
+							el
+						} else {
+							el.select_first("img")?
+						};
+						let url = img.img_attr(params.use_style_images)?;
 						Some(Page {
 							content: PageContent::url_context(url, context.clone()),
 							..Default::default()
